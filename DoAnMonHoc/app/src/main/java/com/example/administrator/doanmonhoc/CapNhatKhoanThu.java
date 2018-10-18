@@ -8,6 +8,6 @@ public class CapNhatKhoanThu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.cap_nhat_khoan_thu);
+        setContentView(R.layout.activity_cap_nhat_khoan_thu);
     }
 }

@@ -8,6 +8,6 @@ public class ThemKhoanChi extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.them_khoan_chi);
+        setContentView(R.layout.activity_them_khoan_chi);
     }
 }

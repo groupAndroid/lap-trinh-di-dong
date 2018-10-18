@@ -21,7 +21,8 @@
         <activity android:name=".CapNhatKhoanChi" />
         <activity android:name=".KhoanThu" />
         <activity android:name=".ThemKhoanThu" />
-        <activity android:name=".CapNhatKhoanThu"></activity>
+        <activity android:name=".CapNhatKhoanThu" />
+        <activity android:name=".LoaiTaiKhoanSD"></activity>
     </application>
 
 </manifest>

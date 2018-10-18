@@ -8,6 +8,6 @@ public class KhoanThu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.khoan_thu);
+        setContentView(R.layout.activity_khoan_thu);
     }
 }
