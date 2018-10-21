@@ -31,32 +31,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/toolbar2" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:background="@null"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/ic_popup_sync" />
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:background="@null"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/ic_menu_search" />
-
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
@@ -77,7 +51,7 @@
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/button_Name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@null"
@@ -86,7 +60,7 @@
             android:textAlignment="textStart" />
 
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/button_DoiMatKhau"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@null"
@@ -98,7 +72,7 @@
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="0dp"
-        android:layout_height="232dp"
+        android:layout_height="180dp"
         android:layout_marginStart="8dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -114,16 +88,25 @@
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/button11"
+            android:id="@+id/button_HangMucThu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@null"
             android:drawableLeft="@drawable/icon_ffa"
-            android:text="  Hạng mục Thu/Chi"
+            android:text="  Hạng mục Thu"
             android:textAlignment="textStart" />
 
         <Button
-            android:id="@+id/button10"
+            android:id="@+id/button_HangMucChi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:drawableLeft="@drawable/icon_hangmucchi"
+            android:text="  HẠNG MỤC CHI"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/button_DanhSachMuaSam"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@null"
@@ -131,23 +114,6 @@
             android:text="  Danh sách mua sắm"
             android:textAlignment="textStart" />
 
-        <Button
-            android:id="@+id/button9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@null"
-            android:drawableLeft="@drawable/icon_note"
-            android:text="  Ghi chép định kỳ"
-            android:textAlignment="textStart" />
-
-        <Button
-            android:id="@+id/button8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@null"
-            android:drawableLeft="@drawable/icon_lts"
-            android:text="  dự thu dự chi"
-            android:textAlignment="textStart" />
     </LinearLayout>
 
     <LinearLayout
@@ -162,7 +128,7 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
         <Button
-            android:id="@+id/button12"
+            android:id="@+id/button_CaiDat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@null"
@@ -171,13 +137,21 @@
             android:textAlignment="textStart" />
 
         <Button
-            android:id="@+id/button13"
+            android:id="@+id/button_TroGiup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@null"
             android:drawableLeft="@drawable/help"
             android:text="  Trợ Giúp"
             android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/button_DangXuat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:text="Đăng Xuất"
+            android:textAlignment="center" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

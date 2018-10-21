@@ -31,7 +31,7 @@
         app:layout_constraintTop_toTopOf="@+id/toolbar3" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/imageButton_QuayLaiCT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -44,7 +44,7 @@
         app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/imageButton_HoanThanhCT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -57,7 +57,7 @@
         app:srcCompat="@drawable/ic_check_black_24dp" />
 
     <Spinner
-        android:id="@+id/spinner2"
+        android:id="@+id/spinner_TKSD"
         android:layout_width="368dp"
         android:layout_height="48dp"
         android:layout_marginStart="8dp"
@@ -95,10 +95,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner2" />
+        app:layout_constraintTop_toBottomOf="@+id/spinner_TKSD" />
 
     <Spinner
-        android:id="@+id/spinner3"
+        android:id="@+id/spinner_LoaiKhoanChi"
         android:layout_width="368dp"
         android:layout_height="48dp"
         android:layout_marginStart="8dp"
@@ -120,17 +120,17 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner3" />
+        app:layout_constraintTop_toBottomOf="@+id/spinner_LoaiKhoanChi" />
 
     <EditText
-        android:id="@+id/editText13"
+        android:id="@+id/editText_SoTienChi"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="9dp"
         android:ems="10"
-        android:hint="0đ"
+        android:hint="0"
         android:inputType="number"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
@@ -145,15 +145,15 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:text="Ngày Thu"
+        android:text="Ngày Chi"
         android:textColor="@android:color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText13" />
+        app:layout_constraintTop_toBottomOf="@+id/editText_SoTienChi" />
 
     <EditText
-        android:id="@+id/editText15"
+        android:id="@+id/editText_NgayChi"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -177,10 +177,10 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText15" />
+        app:layout_constraintTop_toBottomOf="@+id/editText_NgayChi" />
 
     <EditText
-        android:id="@+id/editText16"
+        android:id="@+id/editText_GhiChuKhoanChi"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -194,7 +194,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <Button
-        android:id="@+id/button16"
+        android:id="@+id/button_LuuChiTien"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="148dp"
@@ -203,5 +203,5 @@
         android:text="Lưu"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText16" />
+        app:layout_constraintTop_toBottomOf="@+id/editText_GhiChuKhoanChi" />
 </android.support.constraint.ConstraintLayout>

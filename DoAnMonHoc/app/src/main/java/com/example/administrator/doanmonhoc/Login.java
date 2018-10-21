@@ -15,13 +15,14 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        login=findViewById(R.id.button);
-        signin=findViewById(R.id.button2);
+        login=findViewById(R.id.button_DangNhap);
+        signin=findViewById(R.id.button_DangKy);
 
         signin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(Login.this,Signin.class);
+                intent.setFlags(intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivityForResult(intent,100);
             }
         });

@@ -46,7 +46,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editText_TenKhoanChi" />
 
     <EditText
-        android:id="@+id/editText_GhiChu"
+        android:id="@+id/editText_GhiChuKhoanChi"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -58,7 +58,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <Button
-        android:id="@+id/button_CapNhat"
+        android:id="@+id/button_CapNhatKhoanChi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -67,10 +67,10 @@
         android:text="Cập Nhật"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText_GhiChu" />
+        app:layout_constraintTop_toBottomOf="@+id/editText_GhiChuKhoanChi" />
 
     <ImageView
-        android:id="@+id/imageView_Hinh"
+        android:id="@+id/imageView_HinhKhoanChi"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginEnd="8dp"

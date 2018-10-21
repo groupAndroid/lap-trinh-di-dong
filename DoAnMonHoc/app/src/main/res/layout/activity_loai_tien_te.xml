@@ -31,7 +31,7 @@
         app:layout_constraintTop_toTopOf="@+id/toolbar3" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/imageButton_QuayLaiTT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -41,10 +41,11 @@
         app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp"
+        android:contentDescription="TODO" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/imageButton_HoanThanhTT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -71,7 +72,7 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar3" />
 
     <EditText
-        android:id="@+id/editText9"
+        android:id="@+id/editText_TenTienTe"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -97,10 +98,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText9" />
+        app:layout_constraintTop_toBottomOf="@+id/editText_TenTienTe" />
 
     <EditText
-        android:id="@+id/editText11"
+        android:id="@+id/editText_VietTat"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -127,7 +128,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText11" />
+        app:layout_constraintTop_toBottomOf="@+id/editText_VietTat" />
 
     <EditText
         android:id="@+id/editText10"
@@ -145,7 +146,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/button_LuuTT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"

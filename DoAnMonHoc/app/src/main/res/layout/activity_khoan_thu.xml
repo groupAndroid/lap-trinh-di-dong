@@ -15,7 +15,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button_Them"
+        android:id="@+id/button_ThemKhoanThu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -28,7 +28,7 @@
         app:layout_constraintTop_toBottomOf="@+id/ListView_KhoanThu" />
 
     <Button
-        android:id="@+id/button_Xoa"
+        android:id="@+id/button_XoaKhoanThu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -40,7 +40,7 @@
         app:layout_constraintTop_toBottomOf="@+id/ListView_KhoanThu" />
 
     <Button
-        android:id="@+id/button_CapNhat"
+        android:id="@+id/button_CapNhatKhoanThu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
